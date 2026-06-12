@@ -40,7 +40,7 @@ function spinning(){
 
 //saving
 async function save(name, result) {
-  await fetch("https://your-railway-url.railway.app/spin", {
+  await fetch("https://picnic-spinner-production.up.railway.app/spin", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, result })
