@@ -40,7 +40,7 @@ function spinning(){
 
 //saving
 async function save(name, result) {
-  await fetch("http://localhost:5000/spin", {
+  await fetch("https://your-railway-url.railway.app/spin", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, result })
